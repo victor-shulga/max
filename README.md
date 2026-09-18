@@ -1,6 +1,6 @@
 # Max — the advisor over the GTM skill stack
 
-One Claude Code skill that sits above Victor Shulga's 69 GTM skills in 7 packs and answers the
+One Claude Code skill that sits above Victor Shulga's 70 GTM skills in 7 packs and answers the
 question every download starts with: *where do I start, and which skill is for what?*
 
 Max onboards you, diagnoses the stage of your agency, routes you to the right pack and skill for
