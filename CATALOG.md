@@ -1,6 +1,6 @@
 # Victor Shulga GTM skill stack — catalog
 
-Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **70 skills in 7 packs + Max**, 5 standalone skills. Generated 2026-09-22 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
+Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **70 skills in 7 packs + Max**, 4 standalone skills. Generated 2026-09-22 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
 
 ## Start here: Max, the orchestrator
 
@@ -76,7 +76,7 @@ Lost inside the pack? Run its orchestrator `signal-outbound` first — it drives
 | `ps-line-generator` | Use when asked to write a PS line, add a pattern interrupt to an email, or improve the bottom of a cold email sequence | `npx skills add victor-shulga/outbound-engine-skills/skills/ps-line-generator` | — |
 | `reply-audit` | Runs a full forensic audit of outbound REPLIES (positive responses, objections, ghosts) for an agency client and writes the result as a structured page in an established… | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-audit` | [ZIP](https://victorshulga.com/skills/reply-audit/) |
 | `reply-objection-handler` | Per-reply engine for outbound. Takes ONE inbound reply, objection, ghost, lost proposal or trigger (a LinkedIn post, a work anniversary, company news) plus context,… | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-objection-handler` | [ZIP](https://victorshulga.com/skills/reply-objection-handler/) |
-| `sequence-writer` | Writes an eight-touch email and LinkedIn sequence built on one signal, with interest-only CTAs and separate copy for the decision-maker and the champion. | `npx skills add victor-shulga/outbound-engine-skills/skills/sequence-writer` | — |
+| `sequence-writer` | Writes a multichannel cold outreach sequence (email + LinkedIn) for ONE hypothesis: ICP x anchor (signal / data-point / segment insight) x offer, for a B2B service… | `npx skills add victor-shulga/outbound-engine-skills/skills/sequence-writer` | [ZIP](https://victorshulga.com/skills/multichannel-sequence/) |
 | `signal-catalog` | Builds a 50-trigger signal catalog for one niche, scores every signal on a 5-factor weighted model, and bundles the signals that cannot reach test volume alone. | `npx skills add victor-shulga/outbound-engine-skills/skills/signal-catalog` | — |
 | `signal-research` | Runs a signal-research pass over an EXISTING firmographic account base (CSV, Google Sheet, Notion DB, CRM export) for a B2B service agency: decides which signals to hunt… | `npx skills add victor-shulga/outbound-engine-skills/skills/signal-research` | — |
 | `subject-line-generator` | Use when asked to write subject lines, improve open rates, or generate subject line options for an email sequence | `npx skills add victor-shulga/outbound-engine-skills/skills/subject-line-generator` | — |
@@ -165,14 +165,6 @@ repo: https://github.com/victor-shulga/page-builder
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
 | `page-builder` | Production line for website pages of a B2B service business (agency, outsourcing, consulting). | `npx skills add victor-shulga/page-builder/skills/page-builder` | [ZIP](https://victorshulga.com/skills/page-builder/) |
-
-### multichannel-sequence
-
-repo: https://github.com/victor-shulga/multichannel-sequence
-
-| Skill | What it does | Install just this one | ZIP |
-|---|---|---|---|
-| `multichannel-sequence` | Writes a multichannel cold outreach sequence (email + LinkedIn) for one hypothesis — ICP x signal/data-point x offer — for a B2B service company (custom development,… | `npx skills add victor-shulga/multichannel-sequence` | [ZIP](https://victorshulga.com/skills/multichannel-sequence/) |
 
 ### linkedin-post-writing
 
