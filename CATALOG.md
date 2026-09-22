@@ -32,19 +32,19 @@ Lost inside the pack? Run its orchestrator `gtm-run` first — it drives the oth
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
 | `gtm-run` — orchestrator, start here | Orchestrate the full GTM strategy flow for an IT agency from a website URL (cold audit). | `npx skills add victor-shulga/gtm-strategy-skills/skills/gtm-run` | — |
-| `01-intake` | Step 1 of the GTM flow. | `npx skills add victor-shulga/gtm-strategy-skills/skills/01-intake` | — |
-| `02-stage-diagnostic` | Step 2 of the GTM flow and CHECKPOINT 1. | `npx skills add victor-shulga/gtm-strategy-skills/skills/02-stage-diagnostic` | — |
-| `03-market-icp-persona` | Step 3 of the GTM flow and CHECKPOINT 2 (Market -> ICP -> Persona). | `npx skills add victor-shulga/gtm-strategy-skills/skills/03-market-icp-persona` | — |
-| `04-market-sizing` | Step 4 of the GTM flow. | `npx skills add victor-shulga/gtm-strategy-skills/skills/04-market-sizing` | — |
+| `01-intake` | Step 1 of the GTM flow. Scrape an IT agency website (cold audit) and produce a structured Company Snapshot — services, claims, positioning, proof and case studies,… | `npx skills add victor-shulga/gtm-strategy-skills/skills/01-intake` | — |
+| `02-stage-diagnostic` | Step 2 of the GTM flow and CHECKPOINT 1. Diagnose an IT agency growth stage 0-4 from the Company Snapshot using the agency-path model, plus the Sales-Market-Fit lens (L,… | `npx skills add victor-shulga/gtm-strategy-skills/skills/02-stage-diagnostic` | — |
+| `03-market-icp-persona` | Step 3 of the GTM flow and CHECKPOINT 2 (Market -> ICP -> Persona). Build the ICP top-down in three levels for an IT agency cold-audit — first propose the 3 best target… | `npx skills add victor-shulga/gtm-strategy-skills/skills/03-market-icp-persona` | — |
+| `04-market-sizing` | Step 4 of the GTM flow. Size the market the client chose in step 3 using Viktor's TAM-SAM-SOM framework — computed BOTH top-down (public market data, cut to the relevant… | `npx skills add victor-shulga/gtm-strategy-skills/skills/04-market-sizing` | — |
 | `05-competitor-gap` | Step 5 of the GTM flow (right after market sizing, BEFORE positioning and offers). | `npx skills add victor-shulga/gtm-strategy-skills/skills/05-competitor-gap` | — |
-| `06-positioning` | Step 6 of the GTM flow (after competitor+GAP, before value prop). | `npx skills add victor-shulga/gtm-strategy-skills/skills/06-positioning` | — |
+| `06-positioning` | Step 6 of the GTM flow (after competitor+GAP, before value prop). Builds the agency's positioning from the whitespace found in step 05, gated by the agency's stage (0-4). | `npx skills add victor-shulga/gtm-strategy-skills/skills/06-positioning` | — |
 | `07-value-prop` | Step 7 of the GTM flow (right after the positioning step 06, which it CONSUMES — anchor/enemy/category/statement come from 06, not reinvented here). | `npx skills add victor-shulga/gtm-strategy-skills/skills/07-value-prop` | — |
-| `08-offers` | Step 8 of the GTM flow. | `npx skills add victor-shulga/gtm-strategy-skills/skills/08-offers` | — |
-| `09-buyer-journey` | Step 9 of the GTM flow. | `npx skills add victor-shulga/gtm-strategy-skills/skills/09-buyer-journey` | — |
-| `10-materials-plan` | Step 10 of the GTM flow. | `npx skills add victor-shulga/gtm-strategy-skills/skills/10-materials-plan` | — |
-| `11-channels-plan` | Step 11 of the GTM flow. | `npx skills add victor-shulga/gtm-strategy-skills/skills/11-channels-plan` | — |
-| `12-docs-plan` | Step 12 of the GTM flow. | `npx skills add victor-shulga/gtm-strategy-skills/skills/12-docs-plan` | — |
-| `13-action-plan` | Final step of the GTM flow and CHECKPOINT 3. | `npx skills add victor-shulga/gtm-strategy-skills/skills/13-action-plan` | — |
+| `08-offers` | Step 8 of the GTM flow. Turn the chosen market, ICP, tiers and VP into concrete offers — an offer ladder (hook/free -> entry/paid pilot -> core -> continuity) plus… | `npx skills add victor-shulga/gtm-strategy-skills/skills/08-offers` | — |
+| `09-buyer-journey` | Step 9 of the GTM flow. Map the buyer's journey for the chosen persona — stages from unaware to advocacy (unaware -> problem-aware -> solution-aware -> vendor… | `npx skills add victor-shulga/gtm-strategy-skills/skills/09-buyer-journey` | — |
+| `10-materials-plan` | Step 10 of the GTM flow. Plan the marketing materials/content as a SCORED inventory mapped to the buyer journey — each asset gets a status (To-Do/In progress/Done), a… | `npx skills add victor-shulga/gtm-strategy-skills/skills/10-materials-plan` | — |
+| `11-channels-plan` | Step 11 of the GTM flow. Recommend which lead-gen channels to go into, driven by the stage, the SMF gap (usually L), where the ICP/persona actually hangs out (from 03),… | `npx skills add victor-shulga/gtm-strategy-skills/skills/11-channels-plan` | — |
+| `12-docs-plan` | Step 12 of the GTM flow. Recommend which INTERNAL documents/playbooks to formalize, from the 47-docs-by-5-stages matrix (Doc 2), as a scored inventory (status, quality… | `npx skills add victor-shulga/gtm-strategy-skills/skills/12-docs-plan` | — |
+| `13-action-plan` | Final step of the GTM flow and CHECKPOINT 3. Synthesize all prior artifacts into a 30-90-180 day action plan for an IT agency, derived from the diagnosed stage plus the… | `npx skills add victor-shulga/gtm-strategy-skills/skills/13-action-plan` | — |
 | `gtm-audit` | Standalone GTM audit of a B2B service company on 23 weighted criteria in 4 blocks (Team 20% · Processes 30% · Data 25% · Interfaces 25%), maturity scale 0-4, band… | `npx skills add victor-shulga/gtm-strategy-skills/skills/gtm-audit` | — |
 
 ## outbound-engine-skills — outbound (27 skills)
@@ -60,7 +60,7 @@ Lost inside the pack? Run its orchestrator `signal-outbound` first — it drives
 | `account-sourcing` | Builds a filtered, scored account list from job-posting signals — pulls postings from ATS career sites via Apify, strips the two thirds of results that are agencies,… | `npx skills add victor-shulga/outbound-engine-skills/skills/account-sourcing` | — |
 | `campaign-naming` | Use when asked to name campaigns, generate a naming convention, or organize a hypothesis matrix into readable campaign names | `npx skills add victor-shulga/outbound-engine-skills/skills/campaign-naming` | — |
 | `campaign-report` | Use when asked to generate a weekly or monthly campaign performance report, summarize outbound results, or brief a client or stakeholder on campaign status | `npx skills add victor-shulga/outbound-engine-skills/skills/campaign-report` | — |
-| `campaign-tiering` | Use when asked to review running campaigns, decide what to scale vs. | `npx skills add victor-shulga/outbound-engine-skills/skills/campaign-tiering` | — |
+| `campaign-tiering` | Use when asked to review running campaigns, decide what to scale vs. kill, or sort active hypotheses by performance | `npx skills add victor-shulga/outbound-engine-skills/skills/campaign-tiering` | — |
 | `data-research` | Use when asked to turn a raw company list into a scored, evidenced prospect list — grade a base the client already has, enrich it from public sources, attach dated… | `npx skills add victor-shulga/outbound-engine-skills/skills/data-research` | — |
 | `deliverability-audit` | Use when asked to check email deliverability, audit sending infrastructure, investigate spam issues, or set up domains and mailboxes correctly | `npx skills add victor-shulga/outbound-engine-skills/skills/deliverability-audit` | — |
 | `followup-sequence` | Use when asked to write follow-ups, nurture warm non-responders, or build a re-engagement sequence for leads who went quiet | `npx skills add victor-shulga/outbound-engine-skills/skills/followup-sequence` | — |
@@ -75,7 +75,7 @@ Lost inside the pack? Run its orchestrator `signal-outbound` first — it drives
 | `prospect-scoring` | Score an account BEFORE any contact — profile fit only, from data you can read without talking to anyone. | `npx skills add victor-shulga/outbound-engine-skills/skills/prospect-scoring` | [ZIP](https://victorshulga.com/skills/lead-scoring/) |
 | `ps-line-generator` | Use when asked to write a PS line, add a pattern interrupt to an email, or improve the bottom of a cold email sequence | `npx skills add victor-shulga/outbound-engine-skills/skills/ps-line-generator` | — |
 | `reply-audit` | Runs a full forensic audit of outbound REPLIES (positive responses, objections, ghosts) for an agency client and writes the result as a structured page in an established… | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-audit` | [ZIP](https://victorshulga.com/skills/reply-audit/) |
-| `reply-objection-handler` | Per-reply engine for outbound. | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-objection-handler` | [ZIP](https://victorshulga.com/skills/reply-objection-handler/) |
+| `reply-objection-handler` | Per-reply engine for outbound. Takes ONE inbound reply, objection, ghost, lost proposal or trigger (a LinkedIn post, a work anniversary, company news) plus context,… | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-objection-handler` | [ZIP](https://victorshulga.com/skills/reply-objection-handler/) |
 | `sequence-writer` | Writes an eight-touch email and LinkedIn sequence built on one signal, with interest-only CTAs and separate copy for the decision-maker and the champion. | `npx skills add victor-shulga/outbound-engine-skills/skills/sequence-writer` | — |
 | `signal-catalog` | Builds a 50-trigger signal catalog for one niche, scores every signal on a 5-factor weighted model, and bundles the signals that cannot reach test volume alone. | `npx skills add victor-shulga/outbound-engine-skills/skills/signal-catalog` | — |
 | `signal-research` | Runs a signal-research pass over an EXISTING firmographic account base (CSV, Google Sheet, Notion DB, CRM export) for a B2B service agency: decides which signals to hunt… | `npx skills add victor-shulga/outbound-engine-skills/skills/signal-research` | — |
@@ -104,16 +104,16 @@ Lost inside the pack? Run its orchestrator `content-run` first — it drives the
 
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
-| `content-run` — orchestrator, start here | Orchestrator of the Content Engine flow. | `npx skills add victor-shulga/content-engine-skills/skills/content-run` | — |
-| `01-strategy` | Step 1 of the Content Engine flow. | `npx skills add victor-shulga/content-engine-skills/skills/01-strategy` | — |
-| `02-profile-audit` | Step 2 of the Content Engine flow. | `npx skills add victor-shulga/content-engine-skills/skills/02-profile-audit` | — |
-| `03-research` | Step 3 of the Content Engine flow. | `npx skills add victor-shulga/content-engine-skills/skills/03-research` | — |
-| `04-weekly-plan` | Step 4 of the Content Engine flow. | `npx skills add victor-shulga/content-engine-skills/skills/04-weekly-plan` | — |
-| `05-creative` | Step 5 of the Content Engine flow (creative-first). | `npx skills add victor-shulga/content-engine-skills/skills/05-creative` | — |
-| `06-write` | Step 6 of the Content Engine flow. | `npx skills add victor-shulga/content-engine-skills/skills/06-write` | — |
-| `07-repurpose` | Step 7 of the Content Engine flow. | `npx skills add victor-shulga/content-engine-skills/skills/07-repurpose` | — |
-| `08-engage` | Step 8 of the Content Engine flow. | `npx skills add victor-shulga/content-engine-skills/skills/08-engage` | — |
-| `09-track` | Step 9 of the Content Engine flow. | `npx skills add victor-shulga/content-engine-skills/skills/09-track` | — |
+| `content-run` — orchestrator, start here | Orchestrator of the Content Engine flow. Routes to the right step — strategy, profile audit, research, weekly plan, production, creatives, tracking — keeps per-client… | `npx skills add victor-shulga/content-engine-skills/skills/content-run` | — |
+| `01-strategy` | Step 1 of the Content Engine flow. Build a machine-readable LinkedIn social selling strategy in Notion from a person LinkedIn profile + company site/LinkedIn —… | `npx skills add victor-shulga/content-engine-skills/skills/01-strategy` | — |
+| `02-profile-audit` | Step 2 of the Content Engine flow. Audit a person LinkedIn profile against the 2026 optimization framework AND the client strategy, then propose concrete rewrites per… | `npx skills add victor-shulga/content-engine-skills/skills/02-profile-audit` | — |
+| `03-research` | Step 3 of the Content Engine flow. Weekly research layer that refills the Idea Pool from six sources — call transcripts (Fathom), the author own work-stream, LinkedIn… | `npx skills add victor-shulga/content-engine-skills/skills/03-research` | — |
+| `04-weekly-plan` | Step 4 of the Content Engine flow. The weekly recommender — the heart of the system. | `npx skills add victor-shulga/content-engine-skills/skills/04-weekly-plan` | — |
+| `05-creative` | Step 5 of the Content Engine flow (creative-first). Takes an approved Idea Pool card and produces the visual creative — carousel, infographic, single image, or… | `npx skills add victor-shulga/content-engine-skills/skills/05-creative` | — |
+| `06-write` | Step 6 of the Content Engine flow. Writes the publish-ready LinkedIn post text UNDER the creative from 05, in the author's voice — runs the writing process, picks the… | `npx skills add victor-shulga/content-engine-skills/skills/06-write` | — |
+| `07-repurpose` | Step 7 of the Content Engine flow. Mines the author's best-performing posts (backfill of the year's top 30-50, or recent winners from the Posts DB) and proposes how to… | `npx skills add victor-shulga/content-engine-skills/skills/07-repurpose` | — |
+| `08-engage` | Step 8 of the Content Engine flow. The comment radar in three modes — targets builds a live list of profiles worth commenting on by extracting the four audiences (ICP,… | `npx skills add victor-shulga/content-engine-skills/skills/08-engage` | — |
+| `09-track` | Step 9 of the Content Engine flow. The tracking loop that closes the compound cycle — ingests LinkedIn analytics exports into the post archive and the Posts DB, scores… | `npx skills add victor-shulga/content-engine-skills/skills/09-track` | — |
 
 ## gtm-skills — single agents (6 skills)
 
