@@ -23,6 +23,8 @@ Then, in Claude: `/max` — or just say "where do I start" / "з чого поч
 Max carries the install command of every other pack, so you can start from it alone and add packs
 as it sends you to them. The whole stack in one ZIP: [victorshulga.com/stack](https://victorshulga.com/stack).
 
+The catalog of every pack and skill, with install commands: [CATALOG.md](CATALOG.md) — regenerated from the repos, always current.
+
 ## What it knows
 
 - The system: 8 zones × 4 phases (Foundation → Traction → Scale → Optimization), Must / contextual / nice-to-have priorities, the stage rule (which phase an agency at stage 0–1, 2 or 3–4 should work).

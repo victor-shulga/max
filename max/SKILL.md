@@ -110,6 +110,11 @@ Code session must be restarted — skills load at session start.
 
 No terminal: one ZIP with every pack at victorshulga.com/stack, or a ZIP per skill on victorshulga.com/skills.
 
+The full catalog — every pack and skill on one page, one line each, with what it does, its install command and
+its ZIP — is `CATALOG.md` in the max repo: https://github.com/victor-shulga/max/blob/main/CATALOG.md. It is
+regenerated from the repos, so it is always current. When someone asks "which skills are there" or "what do I
+install", send that one link.
+
 **Orchestrators — the entry point of each pack, not a skill among others:**
 
 | Pack | Orchestrator | Runs |
