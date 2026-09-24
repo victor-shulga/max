@@ -72,16 +72,16 @@ Lost inside the pack? Run its orchestrator `signal-outbound` first — it drives
 | `multi-channel-orchestrator` | Use when asked to build a multi-channel sequence, coordinate email and LinkedIn touchpoints, or plan a combined outreach flow for a hypothesis | `npx skills add victor-shulga/outbound-engine-skills/skills/multi-channel-orchestrator` | — |
 | `persona-builder` | Use when asked to build a buyer persona, profile a specific role, or understand how to message a particular decision-maker type | `npx skills add victor-shulga/outbound-engine-skills/skills/persona-builder` | — |
 | `personalization-pipeline` | Designs the pipeline that computes per-lead personalization before the sequencer — two generated fields, a confidence gate, and a push into the sending tool. | `npx skills add victor-shulga/outbound-engine-skills/skills/personalization-pipeline` | — |
-| `prospect-scoring` | Score an account BEFORE any contact — profile fit only, from data you can read without talking to anyone. | `npx skills add victor-shulga/outbound-engine-skills/skills/prospect-scoring` | [ZIP](https://victorshulga.com/skills/lead-scoring/) |
+| `prospect-scoring` | Score an account BEFORE any contact — profile fit only, from data you can read without talking to anyone. | `npx skills add victor-shulga/outbound-engine-skills/skills/prospect-scoring` | [ZIP](https://victorshulga.com/skills/outbound-agents/lead-scoring/) |
 | `ps-line-generator` | Use when asked to write a PS line, add a pattern interrupt to an email, or improve the bottom of a cold email sequence | `npx skills add victor-shulga/outbound-engine-skills/skills/ps-line-generator` | — |
-| `reply-audit` | Runs a full forensic audit of outbound REPLIES (positive responses, objections, ghosts) for an agency client and writes the result as a structured page in an established… | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-audit` | [ZIP](https://victorshulga.com/skills/reply-audit/) |
-| `reply-objection-handler` | Per-reply engine for outbound. Takes ONE inbound reply, objection, ghost, lost proposal or trigger (a LinkedIn post, a work anniversary, company news) plus context,… | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-objection-handler` | [ZIP](https://victorshulga.com/skills/reply-objection-handler/) |
-| `sequence-writer` | Writes a multichannel cold outreach sequence (email + LinkedIn) for ONE hypothesis: ICP x anchor (signal / data-point / segment insight) x offer, for a B2B service… | `npx skills add victor-shulga/outbound-engine-skills/skills/sequence-writer` | [ZIP](https://victorshulga.com/skills/multichannel-sequence/) |
+| `reply-audit` | Runs a full forensic audit of outbound REPLIES (positive responses, objections, ghosts) for an agency client and writes the result as a structured page in an established… | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-audit` | [ZIP](https://victorshulga.com/skills/outbound-agents/reply-audit/) |
+| `reply-objection-handler` | Per-reply engine for outbound. Takes ONE inbound reply, objection, ghost, lost proposal or trigger (a LinkedIn post, a work anniversary, company news) plus context,… | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-objection-handler` | [ZIP](https://victorshulga.com/skills/outbound-agents/reply-objection-handler/) |
+| `sequence-writer` | Writes a multichannel cold outreach sequence (email + LinkedIn) for ONE hypothesis: ICP x anchor (signal / data-point / segment insight) x offer, for a B2B service… | `npx skills add victor-shulga/outbound-engine-skills/skills/sequence-writer` | [ZIP](https://victorshulga.com/skills/outbound-agents/multichannel-sequence/) |
 | `signal-catalog` | Builds a 50-trigger signal catalog for one niche, scores every signal on a 5-factor weighted model, and bundles the signals that cannot reach test volume alone. | `npx skills add victor-shulga/outbound-engine-skills/skills/signal-catalog` | — |
 | `signal-research` | Runs a signal-research pass over an EXISTING firmographic account base (CSV, Google Sheet, Notion DB, CRM export) for a B2B service agency: decides which signals to hunt… | `npx skills add victor-shulga/outbound-engine-skills/skills/signal-research` | — |
 | `subject-line-generator` | Use when asked to write subject lines, improve open rates, or generate subject line options for an email sequence | `npx skills add victor-shulga/outbound-engine-skills/skills/subject-line-generator` | — |
 | `waterfall-enrichment` | Turns company domains into named decision-makers with verified work emails, or finds emails for contacts you already have — a people-search node keyed on domain, then a… | `npx skills add victor-shulga/outbound-engine-skills/skills/waterfall-enrichment` | — |
-| `weekly-outreach-report` | Builds a canonical WEEKLY outreach report for a client as a standalone narrative page — the exact 7(+2)-section format instead of a dashboard dump. | `npx skills add victor-shulga/outbound-engine-skills/skills/weekly-outreach-report` | [ZIP](https://victorshulga.com/skills/weekly-outreach-report/) |
+| `weekly-outreach-report` | Builds a canonical WEEKLY outreach report for a client as a standalone narrative page — the exact 7(+2)-section format instead of a dashboard dump. | `npx skills add victor-shulga/outbound-engine-skills/skills/weekly-outreach-report` | [ZIP](https://victorshulga.com/skills/outbound-agents/weekly-outreach-report/) |
 
 ## sales-engine-skills — sales (6 skills)
 
@@ -90,10 +90,10 @@ Install the whole pack: `npx skills add victor-shulga/sales-engine-skills` · re
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
 | `cold-call-script` | Generates a structured cold call script from a target description (job title, company type, industry, trigger, etc.). | `npx skills add victor-shulga/sales-engine-skills/skills/cold-call-script` | — |
-| `meeting-prep` | Generates a pre-call brief for a BOOKED meeting (discovery or demo): the handoff dossier that lets whoever takes the call walk in prepared, 500 words max. | `npx skills add victor-shulga/sales-engine-skills/skills/meeting-prep` | [ZIP](https://victorshulga.com/skills/meeting-prep/) |
-| `offer-ladder` | Use when the user wants to build a vertical OFFER LADDER (value/ascension ladder) for an IT-agency client from their website — free → low → mid → high tiers around ONE… | `npx skills add victor-shulga/sales-engine-skills/skills/offer-ladder` | [ZIP](https://victorshulga.com/skills/offer-ladder/) |
+| `meeting-prep` | Generates a pre-call brief for a BOOKED meeting (discovery or demo): the handoff dossier that lets whoever takes the call walk in prepared, 500 words max. | `npx skills add victor-shulga/sales-engine-skills/skills/meeting-prep` | [ZIP](https://victorshulga.com/skills/outbound-agents/meeting-prep/) |
+| `offer-ladder` | Use when the user wants to build a vertical OFFER LADDER (value/ascension ladder) for an IT-agency client from their website — free → low → mid → high tiers around ONE… | `npx skills add victor-shulga/sales-engine-skills/skills/offer-ladder` | [ZIP](https://victorshulga.com/skills/outbound-agents/offer-ladder/) |
 | `pipeline-analysis` | Runs a full sales pipeline analysis and renders an interactive visual dashboard. | `npx skills add victor-shulga/sales-engine-skills/skills/pipeline-analysis` | — |
-| `proposal-generator` | Generates two client-ready sales proposals as single-file HTML — built on the client's own brand/design system — and deploys them to Netlify. | `npx skills add victor-shulga/sales-engine-skills/skills/proposal-generator` | [ZIP](https://victorshulga.com/skills/proposal-generator/) |
+| `proposal-generator` | Generates two client-ready sales proposals as single-file HTML — built on the client's own brand/design system — and deploys them to Netlify. | `npx skills add victor-shulga/sales-engine-skills/skills/proposal-generator` | [ZIP](https://victorshulga.com/skills/outbound-agents/proposal-generator/) |
 | `value-prop-lister` | Extract and organize all value propositions from a company website or materials into a structured inventory, categorized by type and mapped to personas and outreach… | `npx skills add victor-shulga/sales-engine-skills/skills/value-prop-lister` | — |
 
 ## content-engine-skills — content (10 skills)
@@ -121,12 +121,12 @@ Install the whole pack: `npx skills add victor-shulga/gtm-skills` · repo: https
 
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
-| `agency-signal-sourcer` | Operational buying-signal engine for B2B service agencies (BIM/MEP, custom dev, GIS, AI/SaaS engineering outsourcing). | `npx skills add victor-shulga/gtm-skills/agency-signal-sourcer` | [ZIP](https://victorshulga.com/skills/agency-signal-sourcer/) |
-| `anticopywriting-ai` | Знаходить і прибирає ознаки ШІ-генерації з тексту українською або англійською мовою. | `npx skills add victor-shulga/gtm-skills/anticopywriting-ai` | [ZIP](https://victorshulga.com/skills/anticopywriting-ai/) |
-| `hypo-generator` | Use when Viktor wants to generate outreach hypotheses for an IT agency client from a website URL or text brief. | `npx skills add victor-shulga/gtm-skills/hypo-generator` | [ZIP](https://victorshulga.com/skills/hypo-generator/) |
+| `agency-signal-sourcer` | Operational buying-signal engine for B2B service agencies (BIM/MEP, custom dev, GIS, AI/SaaS engineering outsourcing). | `npx skills add victor-shulga/gtm-skills/agency-signal-sourcer` | [ZIP](https://victorshulga.com/skills/outbound-agents/agency-signal-sourcer/) |
+| `anticopywriting-ai` | Знаходить і прибирає ознаки ШІ-генерації з тексту українською або англійською мовою. | `npx skills add victor-shulga/gtm-skills/anticopywriting-ai` | [ZIP](https://victorshulga.com/skills/outbound-agents/anticopywriting-ai/) |
+| `hypo-generator` | Use when Viktor wants to generate outreach hypotheses for an IT agency client from a website URL or text brief. | `npx skills add victor-shulga/gtm-skills/hypo-generator` | [ZIP](https://victorshulga.com/skills/outbound-agents/hypo-generator/) |
 | `hypothesis-scoring` | Scores and ranks outbound hypotheses BEFORE launch and turns them into a launch queue — the pre-launch evaluation method from Victor Shulga's guide on testing… | `npx skills add victor-shulga/gtm-skills/hypothesis-scoring` | — |
-| `offer-factory` | Use when Viktor wants to invent offers FAST for an IT-agency client and test them with outbound. | `npx skills add victor-shulga/gtm-skills/offer-factory` | [ZIP](https://victorshulga.com/skills/offer-factory/) |
-| `prospect-profiler` | Turns a SCORED account list into one tactical pre-touch dossier per account: a compact "60-second card" an SDR reads right before writing the first touch. | `npx skills add victor-shulga/gtm-skills/prospect-profiler` | [ZIP](https://victorshulga.com/skills/prospect-profiler/) |
+| `offer-factory` | Use when Viktor wants to invent offers FAST for an IT-agency client and test them with outbound. | `npx skills add victor-shulga/gtm-skills/offer-factory` | [ZIP](https://victorshulga.com/skills/outbound-agents/offer-factory/) |
+| `prospect-profiler` | Turns a SCORED account list into one tactical pre-touch dossier per account: a compact "60-second card" an SDR reads right before writing the first touch. | `npx skills add victor-shulga/gtm-skills/prospect-profiler` | [ZIP](https://victorshulga.com/skills/outbound-agents/prospect-profiler/) |
 
 ## account-management-skills — retention (5 skills)
 
@@ -135,7 +135,7 @@ Install the whole pack: `npx skills add victor-shulga/account-management-skills`
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
 | `account-dossier` | Research ONE target company as an outbound prospect and produce a decision-ready account dossier: signal stack, fit against YOUR ICP, decision-makers, lead score, risks,… | `npx skills add victor-shulga/account-management-skills/skills/account-dossier` | — |
-| `case-study-writer` | Turns a finished client project into a publishable case study in the canonical 12-section Case Study Kit structure: SME interview questionnaire → data collection →… | `npx skills add victor-shulga/account-management-skills/skills/case-study-writer` | [ZIP](https://victorshulga.com/skills/case-study-writer/) |
+| `case-study-writer` | Turns a finished client project into a publishable case study in the canonical 12-section Case Study Kit structure: SME interview questionnaire → data collection →… | `npx skills add victor-shulga/account-management-skills/skills/case-study-writer` | [ZIP](https://victorshulga.com/skills/outbound-agents/case-study-writer/) |
 | `client-health-check` | Scores every active client account green / yellow / red on 6 health criteria and outputs a health table + action plan for the reds. | `npx skills add victor-shulga/account-management-skills/skills/client-health-check` | — |
 | `customer-intelligence` | Mine a vendor's OWN case studies and review-site profiles (G2 / Capterra / TrustRadius) to extract why their customers actually buy: pain layers, buying triggers,… | `npx skills add victor-shulga/account-management-skills/skills/customer-intelligence` | — |
 | `upsell-mapper` | Builds a client × services cross-sell map for a B2B service company: which active client uses which services, where the gaps are, and which gaps are realistic expansion… | `npx skills add victor-shulga/account-management-skills/skills/upsell-mapper` | — |
@@ -164,7 +164,7 @@ repo: https://github.com/victor-shulga/page-builder
 
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
-| `page-builder` | Production line for website pages of a B2B service business (agency, outsourcing, consulting). | `npx skills add victor-shulga/page-builder/skills/page-builder` | [ZIP](https://victorshulga.com/skills/page-builder/) |
+| `page-builder` | Production line for website pages of a B2B service business (agency, outsourcing, consulting). | `npx skills add victor-shulga/page-builder/skills/page-builder` | [ZIP](https://victorshulga.com/skills/outbound-agents/page-builder/) |
 
 ### linkedin-post-writing
 
@@ -189,7 +189,7 @@ repo: https://github.com/victor-shulga/watch
 
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
-| `watch` | Lets Claude "watch" a video or a call recording. Works with TikTok, Instagram Reels, YouTube and Shorts, LinkedIn, X, any local video file, and calls (Zoom, Meet, Loom,… | `npx skills add victor-shulga/watch/skills/watch` | [ZIP](https://victorshulga.com/skills/watch/) |
+| `watch` | Lets Claude "watch" a video or a call recording. Works with TikTok, Instagram Reels, YouTube and Shorts, LinkedIn, X, any local video file, and calls (Zoom, Meet, Loom,… | `npx skills add victor-shulga/watch/skills/watch` | [ZIP](https://victorshulga.com/skills/outbound-agents/watch/) |
 
 ---
 Regenerated by `gen_catalog.py` from the live repos on 2026-09-24. If a skill is missing here it is not public yet; if a command fails, the pack is being updated — try again in an hour.
