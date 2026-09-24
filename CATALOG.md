@@ -1,6 +1,6 @@
 # Victor Shulga GTM skill stack — catalog
 
-Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **70 skills in 7 packs + Max**, 5 standalone skills. Generated 2026-09-24 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
+Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **71 skills in 7 packs + Max**, 5 standalone skills. Generated 2026-09-24 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
 
 ## Start here: Max, the orchestrator
 
@@ -47,7 +47,7 @@ Lost inside the pack? Run its orchestrator `gtm-run` first — it drives the oth
 | `13-action-plan` | Final step of the GTM flow and CHECKPOINT 3. Synthesize all prior artifacts into a 30-90-180 day action plan for an IT agency, derived from the diagnosed stage plus the… | `npx skills add victor-shulga/gtm-strategy-skills/skills/13-action-plan` | — |
 | `gtm-audit` | Standalone GTM audit of a B2B service company on 23 weighted criteria in 4 blocks (Team 20% · Processes 30% · Data 25% · Interfaces 25%), maturity scale 0-4, band… | `npx skills add victor-shulga/gtm-strategy-skills/skills/gtm-audit` | — |
 
-## outbound-engine-skills — outbound (27 skills)
+## outbound-engine-skills — outbound (28 skills)
 
 Install the whole pack: `npx skills add victor-shulga/outbound-engine-skills` · repo: https://github.com/victor-shulga/outbound-engine-skills
 
@@ -72,6 +72,7 @@ Lost inside the pack? Run its orchestrator `signal-outbound` first — it drives
 | `multi-channel-orchestrator` | Use when asked to build a multi-channel sequence, coordinate email and LinkedIn touchpoints, or plan a combined outreach flow for a hypothesis | `npx skills add victor-shulga/outbound-engine-skills/skills/multi-channel-orchestrator` | — |
 | `persona-builder` | Use when asked to build a buyer persona, profile a specific role, or understand how to message a particular decision-maker type | `npx skills add victor-shulga/outbound-engine-skills/skills/persona-builder` | — |
 | `personalization-pipeline` | Designs the pipeline that computes per-lead personalization before the sequencer — two generated fields, a confidence gate, and a push into the sending tool. | `npx skills add victor-shulga/outbound-engine-skills/skills/personalization-pipeline` | — |
+| `pre-launch-data-check` | The last stop-filter before a list goes into the sender. Checks the final file (after enrichment and personalization) across seven layers (source and suppression,… | `npx skills add victor-shulga/outbound-engine-skills/skills/pre-launch-data-check` | — |
 | `prospect-scoring` | Score an account BEFORE any contact — profile fit only, from data you can read without talking to anyone. | `npx skills add victor-shulga/outbound-engine-skills/skills/prospect-scoring` | [ZIP](https://victorshulga.com/skills/outbound-agents/lead-scoring/) |
 | `ps-line-generator` | Use when asked to write a PS line, add a pattern interrupt to an email, or improve the bottom of a cold email sequence | `npx skills add victor-shulga/outbound-engine-skills/skills/ps-line-generator` | — |
 | `reply-audit` | Runs a full forensic audit of outbound REPLIES (positive responses, objections, ghosts) for an agency client and writes the result as a structured page in an established… | `npx skills add victor-shulga/outbound-engine-skills/skills/reply-audit` | [ZIP](https://victorshulga.com/skills/outbound-agents/reply-audit/) |
