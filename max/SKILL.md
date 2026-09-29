@@ -8,7 +8,8 @@ description: >
   action. Use whenever someone asks: "which skill do I use", "where do I start", "how does
   this system work", "what should I do next", "explain [skill]", "I have a GTM/outbound/sales/
   retention problem — help me", "я загубився в скілах", "з чого почати", "що робити далі",
-  "поясни скіл X", or opens the bundle for the first time. Max ROUTES and COACHES — it does
+  "поясни скіл X", "I have no SDR", "show me the team", «у нас нема SDR», «покажи команду»,
+  or opens the bundle for the first time. Max ROUTES and COACHES — it does
   not do the task itself; it sends you to the skill that does. NOT for running a specific skill
   end-to-end (invoke that skill directly) and NOT for inventing GTM advice outside the system.
 ---
@@ -62,7 +63,8 @@ Before routing, learn three things (ask, don't assume):
    If unknown, route them to run the stage diagnostic first (`gtm-strategy` → stage-diagnostic / the free
    bizdev-assessment tool).
 2. **What hurts most right now** — no pipeline / replies but no meetings / leaks in sales / churn / chaos.
-3. **Who's on the team** — founder solo, or has marketing/SDR/sales/AM.
+3. **Who's on the team** — founder solo, or has marketing/SDR/sales/AM. Map the answer onto the 9 roles
+   in Step 2b: the roles nobody covers are where Claude has to stand in.
 
 ## Step 2 — Route by stage (the stage rule)
 
@@ -75,6 +77,35 @@ Before routing, learn three things (ask, don't assume):
 Inside the chosen phase, show only **Must** tasks first (~25–30, not the whole 229). Контекстна =
 raise as one question ("do you have an existing client base / are you hiring?"). Nice = only after
 Must of the phase is done.
+
+## Step 2b — Route by role (the team view)
+
+People rarely think in skills or phases. They think in people: "I have no SDR", "who does the research
+here", "what would a Sales Ops do", «у нас нема SDR», «покажи команду». The stack covers 9 roles of a
+sales team. When the user names a role, a missing hire, or asks to see the team, show that role's card:
+what the role does in one line, its skills in working order, and the stop-filter it owns.
+
+The role card never overrides the stage rule. A stage-1 founder who asks for Sales Ops gets
+`deliverability-audit` first, not `pipeline-analysis`. Show the whole team only when asked; otherwise
+show one role and close with one next action.
+
+| Role | Does | Skills, in working order | Owns stop-filter |
+|---|---|---|---|
+| Стратег / Strategist | who to sell to, how big the market is, what to offer | `gtm-run` (orchestrator) → `gtm-audit`, `02-stage-diagnostic`, `03-market-icp-persona` (or `icp-builder` + `persona-builder`), `04-market-sizing`, `05-competitor-gap`, `06-positioning`, `07-value-prop`, `value-prop-lister`, `08-offers`, `offer-ladder`, `offer-factory`, `09-buyer-journey`, `11-channels-plan`, `12-docs-plan`, `13-action-plan` | — |
+| Ловець сигналів / Signal watcher | who to write to now and why now | `signal-catalog`, `signal-research`, `agency-signal-sourcer`, `hypothesis-builder`, `hypo-generator`, `hypothesis-scoring`, `campaign-naming` | — |
+| Збирач баз / List builder | turns the ICP into a clean list with ОПР and verified emails | `account-sourcing`, `data-research`, `icp-validation`, `prospect-scoring`, `waterfall-enrichment`, `pre-launch-data-check` | scoring before дозбір даних; pre-launch data check |
+| Аналітик / Researcher | knows the account and the person before the first touch | `account-dossier`, `prospect-profiler`, `personalization-pipeline`, `customer-intelligence` | — |
+| SDR | writes and runs the touches, answers replies | `signal-outbound` (orchestrator) → `sequence-writer`, `subject-line-generator`, `ps-line-generator`, `followup-sequence`, `linkedin-sequence`, `multi-channel-orchestrator`, `reply-objection-handler`, `cold-call-script`, `anticopywriting-ai` | nothing sends before deliverability is green |
+| Продажник / Closer | turns a reply into a deal | `lead-scoring`, `meeting-prep`, `proposal-generator`, `pipeline-analysis` | — |
+| Sales Ops | keeps the machine healthy and the numbers honest | `deliverability-audit`, `weekly-outreach-report`, `campaign-report`, `campaign-tiering`, `reply-audit`, `ab-test-analyzer`, `api-to-mcp` | deliverability audit |
+| Аккаунт-менеджер / Account manager | keeps clients and grows them | `client-health-check`, `upsell-mapper`, `case-study-writer` | — |
+| Контент / Content | brand and inbound demand | `content-run` (orchestrator), `10-materials-plan`, `design-system-generator` | — |
+
+**Not covered yet — say so, never improvise a skill:** tracking former client contacts who changed jobs,
+recovering bounced emails into the person's new company and address, drawing the org chart of a target
+account, reverse-looking up who is behind an inbound email, refreshing CRM contacts (who left, who
+replaced them). If the user asks for one of these, name it as a gap and route to the nearest existing
+skill only if it genuinely helps (e.g. `account-dossier` for the ОПР at one account).
 
 ## Step 3 — Enforce the gates (never skip)
 
