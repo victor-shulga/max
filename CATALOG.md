@@ -1,6 +1,6 @@
 # Victor Shulga GTM skill stack — catalog
 
-Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **71 skills in 7 packs + Max**, 5 standalone skills. Generated 2026-09-24 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
+Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **88 skills in 8 packs + Max**, 5 standalone skills. Generated 2026-10-06 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
 
 ## Start here: Max, the orchestrator
 
@@ -23,7 +23,7 @@ Then in Claude: `/max`. Max asks where you are, routes you to the right pack and
 
 Skills that are not listed here are private to Viktor's own workspace and are run by him for you, not installed on your side.
 
-## gtm-strategy-skills — strategy (15 skills)
+## gtm-strategy-skills — strategy (18 skills)
 
 Install the whole pack: `npx skills add victor-shulga/gtm-strategy-skills` · repo: https://github.com/victor-shulga/gtm-strategy-skills
 
@@ -45,7 +45,31 @@ Lost inside the pack? Run its orchestrator `gtm-run` first — it drives the oth
 | `11-channels-plan` | Step 11 of the GTM flow. Recommend which lead-gen channels to go into, driven by the stage, the SMF gap (usually L), where the ICP/persona actually hangs out (from 03),… | `npx skills add victor-shulga/gtm-strategy-skills/skills/11-channels-plan` | — |
 | `12-docs-plan` | Step 12 of the GTM flow. Recommend which INTERNAL documents/playbooks to formalize, from the 47-docs-by-5-stages matrix (Doc 2), as a scored inventory (status, quality… | `npx skills add victor-shulga/gtm-strategy-skills/skills/12-docs-plan` | — |
 | `13-action-plan` | Final step of the GTM flow and CHECKPOINT 3. Synthesize all prior artifacts into a 30-90-180 day action plan for an IT agency, derived from the diagnosed stage plus the… | `npx skills add victor-shulga/gtm-strategy-skills/skills/13-action-plan` | — |
+| `capacity-plan` | Plan resource capacity — workload analysis and utilization forecasting. | `npx skills add victor-shulga/gtm-strategy-skills/skills/capacity-plan` | — |
 | `gtm-audit` | Standalone GTM audit of a B2B service company on 23 weighted criteria in 4 blocks (Team 20% · Processes 30% · Data 25% · Interfaces 25%), maturity scale 0-4, band… | `npx skills add victor-shulga/gtm-strategy-skills/skills/gtm-audit` | — |
+| `risk-assessment` | Identify, assess, and mitigate operational risks. Trigger with «what are the risks», «risk assessment», «risk register», «what could go wrong», or when the user is… | `npx skills add victor-shulga/gtm-strategy-skills/skills/risk-assessment` | — |
+| `status-report` | Generate a status report with KPIs, risks, and action items. Use when writing a weekly or monthly update for leadership, summarizing project health with green/yellow/red… | `npx skills add victor-shulga/gtm-strategy-skills/skills/status-report` | — |
+
+## marketing-engine-skills — marketing (14 skills)
+
+Install the whole pack: `npx skills add victor-shulga/marketing-engine-skills` · repo: https://github.com/victor-shulga/marketing-engine-skills
+
+| Skill | What it does | Install just this one | ZIP |
+|---|---|---|---|
+| `ai-seo` | When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. | `npx skills add victor-shulga/marketing-engine-skills/skills/ai-seo` | — |
+| `analytics` | When the user wants to set up, improve, or audit analytics tracking and measurement. | `npx skills add victor-shulga/marketing-engine-skills/skills/analytics` | — |
+| `competitor-profiling` | When the user wants to research, profile, or analyze competitors from their URLs. | `npx skills add victor-shulga/marketing-engine-skills/skills/competitor-profiling` | — |
+| `content-strategy` | When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. | `npx skills add victor-shulga/marketing-engine-skills/skills/content-strategy` | — |
+| `copywriting` | When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product… | `npx skills add victor-shulga/marketing-engine-skills/skills/copywriting` | — |
+| `cro` | When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead… | `npx skills add victor-shulga/marketing-engine-skills/skills/cro` | — |
+| `customer-research` | When the user wants to conduct, analyze, or synthesize customer research. | `npx skills add victor-shulga/marketing-engine-skills/skills/customer-research` | — |
+| `free-tools` | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. | `npx skills add victor-shulga/marketing-engine-skills/skills/free-tools` | — |
+| `lead-magnets` | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. | `npx skills add victor-shulga/marketing-engine-skills/skills/lead-magnets` | — |
+| `marketing-plan` | When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. | `npx skills add victor-shulga/marketing-engine-skills/skills/marketing-plan` | — |
+| `pricing` | When the user wants help with pricing decisions, packaging, or monetization strategy. | `npx skills add victor-shulga/marketing-engine-skills/skills/pricing` | — |
+| `referrals` | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. | `npx skills add victor-shulga/marketing-engine-skills/skills/referrals` | — |
+| `revops` | When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. | `npx skills add victor-shulga/marketing-engine-skills/skills/revops` | — |
+| `seo-audit` | When the user wants to audit, review, or diagnose SEO issues on their site. | `npx skills add victor-shulga/marketing-engine-skills/skills/seo-audit` | — |
 
 ## outbound-engine-skills — outbound (28 skills)
 
@@ -193,4 +217,4 @@ repo: https://github.com/victor-shulga/watch
 | `watch` | Lets Claude "watch" a video or a call recording. Works with TikTok, Instagram Reels, YouTube and Shorts, LinkedIn, X, any local video file, and calls (Zoom, Meet, Loom,… | `npx skills add victor-shulga/watch/skills/watch` | [ZIP](https://victorshulga.com/skills/outbound-agents/watch/) |
 
 ---
-Regenerated by `gen_catalog.py` from the live repos on 2026-09-24. If a skill is missing here it is not public yet; if a command fails, the pack is being updated — try again in an hour.
+Regenerated by `gen_catalog.py` from the live repos on 2026-10-06. If a skill is missing here it is not public yet; if a command fails, the pack is being updated — try again in an hour.
