@@ -91,7 +91,7 @@ show one role and close with one next action.
 
 | Role | Does | Skills, in working order | Owns stop-filter |
 |---|---|---|---|
-| Стратег / Strategist | who to sell to, how big the market is, what to offer | `gtm-run` (orchestrator) → `gtm-audit`, `02-stage-diagnostic`, `03-market-icp-persona` (or `icp-builder` + `persona-builder`), `04-market-sizing`, `05-competitor-gap`, `06-positioning`, `07-value-prop`, `value-prop-lister`, `08-offers`, `offer-ladder`, `offer-factory`, `09-buyer-journey`, `11-channels-plan`, `12-docs-plan`, `13-action-plan` | — |
+| Стратег / Strategist | who to sell to, how big the market is, what to offer | `gtm-run` (orchestrator) → `gtm-audit`, `gtm-stage-diagnostic`, `gtm-market-icp-persona` (or `icp-builder` + `persona-builder`), `gtm-market-sizing`, `gtm-competitor-gap`, `gtm-positioning`, `gtm-value-prop`, `value-prop-lister`, `gtm-offers`, `offer-ladder`, `offer-factory`, `gtm-buyer-journey`, `gtm-channels-plan`, `gtm-docs-plan`, `gtm-action-plan` | — |
 | Ловець сигналів / Signal watcher | who to write to now and why now | `signal-catalog`, `signal-research`, `agency-signal-sourcer`, `hypothesis-builder`, `hypo-generator`, `hypothesis-scoring`, `campaign-naming` | — |
 | Збирач баз / List builder | turns the ICP into a clean list with ОПР and verified emails | `account-sourcing`, `data-research`, `icp-validation`, `prospect-scoring`, `waterfall-enrichment`, `pre-launch-data-check` | scoring before дозбір даних; pre-launch data check |
 | Аналітик / Researcher | knows the account and the person before the first touch | `account-dossier`, `prospect-profiler`, `personalization-pipeline`, `customer-intelligence` | — |
@@ -99,7 +99,7 @@ show one role and close with one next action.
 | Продажник / Closer | turns a reply into a deal | `lead-scoring`, `meeting-prep`, `proposal-generator`, `pipeline-analysis` | — |
 | Sales Ops | keeps the machine healthy and the numbers honest | `deliverability-audit`, `weekly-outreach-report`, `campaign-report`, `campaign-tiering`, `reply-audit`, `ab-test-analyzer`, `api-to-mcp` | deliverability audit |
 | Аккаунт-менеджер / Account manager | keeps clients and grows them | `client-health-check`, `upsell-mapper`, `case-study-writer` | — |
-| Контент / Content | brand and inbound demand | `content-run` (orchestrator), `10-materials-plan`, `design-system-generator` | — |
+| Контент / Content | brand and inbound demand | `content-run` (orchestrator), `gtm-materials-plan`, `design-system-generator` | — |
 
 **Not covered yet — say so, never improvise a skill:** tracking former client contacts who changed jobs,
 recovering bounced emails into the person's new company and address, drawing the org chart of a target
@@ -162,17 +162,17 @@ If someone is lost inside a pack, send them to its orchestrator before any indiv
 
 | Need | Pack → skill | When |
 |---|---|---|
-| Where's my agency, what to fix first | `gtm-strategy` → `gtm-audit` (23 criteria, 4 weighted blocks), then `02-stage-diagnostic`, `13-action-plan` | week 0, always first |
-| Which competitors, where the gap is | `gtm-strategy` → `competitor-finder` (inside `05-competitor-gap`) | F1 strategy |
+| Where's my agency, what to fix first | `gtm-strategy` → `gtm-audit` (23 criteria, 4 weighted blocks), then `gtm-stage-diagnostic`, `gtm-action-plan` | week 0, always first |
+| Which competitors, where the gap is | `gtm-strategy` → `competitor-finder` (inside `gtm-competitor-gap`) | F1 strategy |
 | What makes this market urgent, which numbers to open with | `gtm-strategy` → `market-research-edp` | F1 strategy |
 | What buyers actually say on calls | `gtm-strategy` → `persona-insights-analysis` (call transcripts) | after 5+ discovery calls |
 | Stress-test an idea or a plan before committing | `gtm-strategy` → `gtm-action-thinker` | before any launch |
 | Revenue forecast, plan/fact, can we hit the target | `gtm-strategy` → `revenue-forecast-writer`, `growth-planner` | F1 planning, then quarterly |
 | Hire an SDR / sales / marketing person | `gtm-strategy` → `sales-hiring-brief` | when a role gap blocks the plan |
-| Who is my ideal client | `gtm-strategy` → `03-market-icp-persona` (inside the strategy flow) or `outbound-engine` → `icp-builder`, `persona-builder` (standalone) | F1 strategy |
+| Who is my ideal client | `gtm-strategy` → `gtm-market-icp-persona` (inside the strategy flow) or `outbound-engine` → `icp-builder`, `persona-builder` (standalone) | F1 strategy |
 | Is this one company worth a touch | `outbound-engine` → `icp-validation` | before adding to any list |
-| How big is the market | `gtm-strategy` → `04-market-sizing` | F1 strategy |
-| How do I position / what's my offer | `gtm-strategy` → `06-positioning`, `07-value-prop`, `08-offers` | F1 strategy |
+| How big is the market | `gtm-strategy` → `gtm-market-sizing` | F1 strategy |
+| How do I position / what's my offer | `gtm-strategy` → `gtm-positioning`, `gtm-value-prop`, `gtm-offers` | F1 strategy |
 | Cold email lands in spam | `outbound-engine` → `deliverability-audit` | before any send (GATE) |
 | What counts as a buying signal here | `outbound-engine` → `signal-catalog`, `signal-research` | F1 outbound |
 | Build a prospect list | `outbound-engine` → `account-sourcing`, `data-research`; where to find accounts in a niche: `niche-data-finder` | F1–F2 outbound |
@@ -210,7 +210,7 @@ If someone is lost inside a pack, send them to its orchestrator before any indiv
 | Test offers | `gtm-skills` → `offer-factory` | F1 strategy |
 | Ask happy clients for introductions, partner program | `marketing-engine` → `referrals` | after every win; F1 quick win |
 | Talk to clients: interviews, their words for the problem | `marketing-engine` → `customer-research` | before ICP and value prop |
-| Profile specific competitors | `marketing-engine` → `competitor-profiling` (after `05-competitor-gap`) | F1 strategy |
+| Profile specific competitors | `marketing-engine` → `competitor-profiling` (after `gtm-competitor-gap`) | F1 strategy |
 | Prices and packages | `marketing-engine` → `pricing` | after offers are defined |
 | Marketing plan, quarter by quarter | `marketing-engine` → `marketing-plan` | F1 planning |
 | Sales process and pipeline data (RevOps), revenue targets | `marketing-engine` → `revops` | F1 planning, then monthly |
