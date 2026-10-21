@@ -1,6 +1,6 @@
 # Victor Shulga GTM skill stack — catalog
 
-Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **111 skills in 8 packs + Max**, 12 standalone skills. Generated 2026-10-21 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
+Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **112 skills in 8 packs + Max**, 13 standalone skills. Generated 2026-10-21 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
 
 ## Start here: Max, the orchestrator
 
@@ -58,7 +58,7 @@ Lost inside the pack? Run its orchestrator `gtm-run` first — it drives the oth
 | `sales-hiring-brief` | Turns a role gap into a hiring package for a B2B service company: a role brief (why the role exists, what it owns, what it does NOT own), a weighted scorecard that… | `npx skills add victor-shulga/gtm-strategy-skills/skills/sales-hiring-brief` | — |
 | `status-report` | Generate a status report with KPIs, risks, and action items. Use when writing a weekly or monthly update for leadership, summarizing project health with green/yellow/red… | `npx skills add victor-shulga/gtm-strategy-skills/skills/status-report` | — |
 
-## marketing-engine-skills — marketing (17 skills)
+## marketing-engine-skills — marketing (18 skills)
 
 Install the whole pack: `npx skills add victor-shulga/marketing-engine-skills` · repo: https://github.com/victor-shulga/marketing-engine-skills
 
@@ -80,6 +80,7 @@ Install the whole pack: `npx skills add victor-shulga/marketing-engine-skills` �
 | `referrals` | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy, or to get warm introductions through a client's or… | `npx skills add victor-shulga/marketing-engine-skills/skills/referrals` | — |
 | `revops` | When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. | `npx skills add victor-shulga/marketing-engine-skills/skills/revops` | — |
 | `seo-audit` | When the user wants to audit, review, or diagnose SEO issues on their site. | `npx skills add victor-shulga/marketing-engine-skills/skills/seo-audit` | — |
+| `website` | Master skill for the website of a B2B service company. Runs the flow: website-audit for a baseline → homepage-rewrite (positioning and proof on the home page) →… | `npx skills add victor-shulga/marketing-engine-skills/skills/website` | — |
 | `website-copy-reframe` | Messaging engine for a B2B service company's website. Three modes. audit: score a homepage against five homepage fundamentals plus the company's voice rules, returning a… | `npx skills add victor-shulga/marketing-engine-skills/skills/website-copy-reframe` | — |
 
 ## outbound-engine-skills — outbound (34 skills)
@@ -269,7 +270,15 @@ repo: https://github.com/victor-shulga/website-audit
 
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
-| `website-audit` | Read-only technical and conversion audit of a live website, made as the before-rebuild snapshot of a B2B site. | `npx skills add victor-shulga/website-audit/skills/website-audit` | — |
+| `website-audit` | Read-only technical and conversion audit of a live website, made as the before-rebuild snapshot of a B2B site. | `npx skills add victor-shulga/website-audit/skills/website-audit` | [ZIP](https://victorshulga.com/skills/outbound-agents/website-audit/) |
+
+### homepage-rewrite
+
+repo: https://github.com/victor-shulga/homepage-rewrite
+
+| Skill | What it does | Install just this one | ZIP |
+|---|---|---|---|
+| `homepage-rewrite` | Rewrites the homepage of a B2B service company (agency, outsourcing, consulting) on two tracks. | `npx skills add victor-shulga/homepage-rewrite/skills/homepage-rewrite` | [ZIP](https://victorshulga.com/skills/outbound-agents/homepage-rewrite/) |
 
 ### linkedin-carousel
 
