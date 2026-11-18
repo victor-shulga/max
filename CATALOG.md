@@ -265,7 +265,7 @@ repo: https://github.com/victor-shulga/seo-llm-dashboard
 
 | Skill | What it does | Install just this one | ZIP |
 |---|---|---|---|
-| `seo-llm-dashboard` | Sets up a live "Search + LLM visibility" dashboard for any site, end to end: DataForSEO account, self-hosted OpenSEO on Cloudflare (Search Console OAuth, rank tracking,… | `npx skills add victor-shulga/seo-llm-dashboard/skills/seo-llm-dashboard` | [ZIP](https://victorshulga.com/skills/outbound-agents/seo-llm-dashboard/) |
+| `seo-llm-dashboard` | One skill, one page: how a site is found in Google and named by ChatGPT, Gemini, Claude and Perplexity. | `npx skills add victor-shulga/seo-llm-dashboard/skills/seo-llm-dashboard` | [ZIP](https://victorshulga.com/skills/outbound-agents/seo-llm-dashboard/) |
 
 ### ai-visibility-report
 
