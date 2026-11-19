@@ -1,6 +1,6 @@
 # Victor Shulga GTM skill stack — catalog
 
-Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **113 skills in 8 packs + Max**, 14 standalone skills. Generated 2026-11-18 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
+Every public skill of the GTM-system methodology by [Victor Shulga](https://victorshulga.com) (Fractional CRO): **115 skills in 8 packs + Max**, 14 standalone skills. Generated 2026-11-19 from the repos themselves, so this page is always the current version — bookmark this link, not a copy.
 
 ## Start here: Max, the orchestrator
 
@@ -33,7 +33,7 @@ Standalone skills are not included: install them from their section below.
 
 Skills that are not listed here are private to Viktor's own workspace and are run by him for you, not installed on your side.
 
-## gtm-strategy-skills — strategy (26 skills)
+## gtm-strategy-skills — strategy (27 skills)
 
 Install the whole pack: `npx skills add victor-shulga/gtm-strategy-skills` · repo: https://github.com/victor-shulga/gtm-strategy-skills
 
@@ -67,6 +67,7 @@ Lost inside the pack? Run its orchestrator `gtm-run` first — it drives the oth
 | `risk-assessment` | Identify, assess, and mitigate operational risks. Trigger with «what are the risks», «risk assessment», «risk register», «what could go wrong», or when the user is… | `npx skills add victor-shulga/gtm-strategy-skills/skills/risk-assessment` | — |
 | `sales-hiring-brief` | Turns a role gap into a hiring package for a B2B service company: a role brief (why the role exists, what it owns, what it does NOT own), a weighted scorecard that… | `npx skills add victor-shulga/gtm-strategy-skills/skills/sales-hiring-brief` | — |
 | `status-report` | Generate a status report with KPIs, risks, and action items. Use when writing a weekly or monthly update for leadership, summarizing project health with green/yellow/red… | `npx skills add victor-shulga/gtm-strategy-skills/skills/status-report` | — |
+| `website-scraper` | Scrapes structured data from any website and exports it to a clean CSV file. | `npx skills add victor-shulga/gtm-strategy-skills/skills/website-scraper` | — |
 
 ## marketing-engine-skills — marketing (18 skills)
 
@@ -93,7 +94,7 @@ Install the whole pack: `npx skills add victor-shulga/marketing-engine-skills` �
 | `website` | Master skill for the website of a B2B service company. Runs the flow: website-audit for a baseline → homepage-rewrite (positioning and proof on the home page) →… | `npx skills add victor-shulga/marketing-engine-skills/skills/website` | — |
 | `website-copy-reframe` | Messaging engine for a B2B service company's website. Three modes. audit: score a homepage against five homepage fundamentals plus the company's voice rules, returning a… | `npx skills add victor-shulga/marketing-engine-skills/skills/website-copy-reframe` | — |
 
-## outbound-engine-skills — outbound (35 skills)
+## outbound-engine-skills — outbound (36 skills)
 
 Install the whole pack: `npx skills add victor-shulga/outbound-engine-skills` · repo: https://github.com/victor-shulga/outbound-engine-skills
 
@@ -108,6 +109,7 @@ Lost inside the pack? Run its orchestrator `signal-outbound` first — it drives
 | `campaign-naming` | Use when asked to name campaigns, generate a naming convention, or organize a hypothesis matrix into readable campaign names | `npx skills add victor-shulga/outbound-engine-skills/skills/campaign-naming` | — |
 | `campaign-report` | Use when asked to generate a weekly or monthly campaign performance report, summarize outbound results, or brief a client or stakeholder on campaign status | `npx skills add victor-shulga/outbound-engine-skills/skills/campaign-report` | — |
 | `campaign-tiering` | Use when asked to review running campaigns, decide what to scale vs. kill, or sort active hypotheses by performance | `npx skills add victor-shulga/outbound-engine-skills/skills/campaign-tiering` | — |
+| `cold-email-formats` | Library of 24 named cold-email formats (first touch), like the infographic catalogue but for email. | `npx skills add victor-shulga/outbound-engine-skills/skills/cold-email-formats` | — |
 | `cold-email-playbook` | Cold-email reference playbook for the parts the rest of the outbound toolkit does not cover. | `npx skills add victor-shulga/outbound-engine-skills/skills/cold-email-playbook` | — |
 | `cta-interest-based` | The call-to-action rule for ANY outbound copy: cold sequences use an INTEREST-BASED (soft) CTA only and never ask for a call, a meeting or a time slot. | `npx skills add victor-shulga/outbound-engine-skills/skills/cta-interest-based` | — |
 | `data-research` | Use when asked to turn a raw company list into a scored, evidenced prospect list — grade a base the client already has, enrich it from public sources, attach dated… | `npx skills add victor-shulga/outbound-engine-skills/skills/data-research` | — |
@@ -324,4 +326,4 @@ repo: https://github.com/victor-shulga/competitor-post-scout
 | `competitor-post-scout` | Finds which LinkedIn, Instagram and YouTube posts of your competitors worked in the last 80 days and turns them into topics, hooks and formats for your own content and… | `npx skills add victor-shulga/competitor-post-scout/skills/competitor-post-scout` | [ZIP](https://victorshulga.com/skills/outbound-agents/competitor-post-scout/) |
 
 ---
-Regenerated by `gen_catalog.py` from the live repos on 2026-11-18. If a skill is missing here it is not public yet; if a command fails, the pack is being updated — try again in an hour.
+Regenerated by `gen_catalog.py` from the live repos on 2026-11-19. If a skill is missing here it is not public yet; if a command fails, the pack is being updated — try again in an hour.
